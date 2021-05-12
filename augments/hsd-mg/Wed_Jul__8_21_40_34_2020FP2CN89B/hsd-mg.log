@@ -1,0 +1,37 @@
+07/08 09:40:34 PM | 
+07/08 09:40:34 PM | Parameters:
+07/08 09:40:34 PM | AUX_WEIGHT=0.4
+07/08 09:40:34 PM | BATCH_SIZE=128
+07/08 09:40:34 PM | CUTOUT_LENGTH=16
+07/08 09:40:34 PM | DATA_LOADER_TYPE=Torch
+07/08 09:40:34 PM | DATA_PATH=/home/yyjiang/Projects/data/iccad19/iccad_2019_dct/32x32
+07/08 09:40:34 PM | DATASET=iccad19
+07/08 09:40:34 PM | DROP_PATH_PROB=0.2
+07/08 09:40:34 PM | EPOCHS=600
+07/08 09:40:34 PM | FEALEN=32
+07/08 09:40:34 PM | FILE=
+07/08 09:40:34 PM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_3x3', 0)], [('sep_conv_3x3', 2), ('dil_conv_5x5', 1)], [('sep_conv_3x3', 1), ('sep_conv_5x5', 2)], [('sep_conv_5x5', 4), ('sep_conv_5x5', 1)]], normal_concat=range(2, 6), reduce=[[('sep_conv_5x5', 1), ('sep_conv_5x5', 0)], [('sep_conv_5x5', 2), ('dil_conv_5x5', 1)], [('dil_conv_3x3', 1), ('sep_conv_3x3', 3)], [('sep_conv_3x3', 4), ('sep_conv_5x5', 2)]], reduce_concat=range(2, 6))
+07/08 09:40:34 PM | GPUS=[0, 1]
+07/08 09:40:34 PM | GRAD_CLIP=5.0
+07/08 09:40:34 PM | INIT_CHANNELS=36
+07/08 09:40:34 PM | INPUT_SIZE=32
+07/08 09:40:34 PM | LAYERS=15
+07/08 09:40:34 PM | LR=0.05
+07/08 09:40:34 PM | MOMENTUM=0.9
+07/08 09:40:34 PM | NAME=hsd-mg
+07/08 09:40:34 PM | PATH=/home/yyjiang/Projects/bayes_darts/augments/hsd-mg/Wed_Jul__8_21:40:34_2020FP2CN89B
+07/08 09:40:34 PM | PRINT_FREQ=50
+07/08 09:40:34 PM | SAVE_DIR=/home/yyjiang/Projects/bayes_darts/augments
+07/08 09:40:34 PM | SAVE_PATH=
+07/08 09:40:34 PM | SEED=2
+07/08 09:40:34 PM | VAL_SET=0
+07/08 09:40:34 PM | WEIGHT_DECAY=0.0003
+07/08 09:40:34 PM | WORKERS=8
+07/08 09:40:34 PM | 
+07/08 09:40:34 PM | Logger is set - training start
+07/08 09:40:56 PM | Model size = 3.514 MB
+07/08 09:41:10 PM | Epoch 0 LR 0.04999965730618567
+07/08 09:41:16 PM | Train: [  1/600] Step 000/142 Loss: 1.074 Recall: 0.159 FA: 11 F1: 0.238095
+07/08 09:41:16 PM | [54 11 53 10]
+07/08 09:42:13 PM | Train: [  1/600] Step 050/142 Loss: 0.897 Recall: 0.894 FA: 26 F1: 0.781457
+07/08 09:42:13 PM | [36 26  7 59]
